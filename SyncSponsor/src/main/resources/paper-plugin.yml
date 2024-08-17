@@ -1,0 +1,4 @@
+name: SyncSponsor
+version: '1.0-SNAPSHOT'
+main: ua.myakish.syncSponsor.SyncSponsor
+api-version: '1.21'
