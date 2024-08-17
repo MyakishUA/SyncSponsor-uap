@@ -12,7 +12,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MyPlugin extends JavaPlugin {
+public class SyncSponsor extends JavaPlugin {
 
     @Override
     public void onEnable() {
