@@ -26,7 +26,6 @@ public class MyPlugin extends JavaPlugin {
             for (Player player : Bukkit.getOnlinePlayers()) {
                 User user = luckPerms.getUserManager().getUser(player.getUniqueId());
                 if (user != null) {
-                    // Перевіряємо, чи є у гравця одна з ролей wealth1, wealth2, wealth3, wealth4
                     boolean isSponsor = user.getPrimaryGroup().equalsIgnoreCase("wealth1") ||
                             user.getPrimaryGroup().equalsIgnoreCase("wealth2") ||
                             user.getPrimaryGroup().equalsIgnoreCase("wealth3") ||
