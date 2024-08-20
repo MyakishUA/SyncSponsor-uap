@@ -1,0 +1,7 @@
+name: uaproject-servertap
+version: '1.0-SNAPSHOT'
+main: ua.myakish.servertap.Servertap
+depend:
+  - ServerTap
+  - LuckPerms
+api-version: '1.21'
